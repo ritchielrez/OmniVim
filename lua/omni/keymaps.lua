@@ -32,7 +32,7 @@ keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
 -- Open up vim's default file explorer on the left
-keymap("n", "<S-e>", ":Lex 30<CR>", opts)
+keymap("n", "<S-e>", ":Lex 20<CR>", opts)
 
 -- Navigate buffers
 keymap("n", "<S-x>", ":bdelete<CR>", opts)

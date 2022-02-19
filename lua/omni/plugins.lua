@@ -48,7 +48,7 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-cmdline" -- cmdline completions
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
   use "hrsh7th/cmp-nvim-lsp" -- Lsp completion
-  use "hrsh7th/cmp-nvim-lua" -- Neovim lua api 
+  use "hrsh7th/cmp-nvim-lua" -- Neovim lua api
 
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP

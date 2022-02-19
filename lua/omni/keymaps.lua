@@ -32,12 +32,12 @@ keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
 -- Open up vim's default file explorer on the left
-keymap("n", "<leader>e", ":Lex 20<CR>", opts)
+keymap("n", "<Leader>e", ":Lex 20<CR>", opts)
 
 -- Navigate buffers
-keymap("n", "<S-x>", ":bdelete<CR>", opts)
-keymap("n", "<S-n>", ":bnext<CR>", opts)
-keymap("n", "<S-m>", ":bprevious<CR>", opts)
+keymap("n", "<Leader>x", ":bdelete<CR>", opts)
+keymap("n", "<Leader>n", ":bnext<CR>", opts)
+keymap("n", "<Leader>m", ":bprevious<CR>", opts)
 
 -- Move text up and down
 keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
@@ -63,6 +63,10 @@ keymap("x", "J", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "K", ":move '<-2<CR>gv-gv", opts)
 keymap("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
+
+-- Telescope
+keymap("n", "<Leader>ff", ":lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<CR>", opts)
+keymap("n", "<Leader>ft", ":Telescope live_grep<CR>", opts)
 
 -- Terminal --
 -- Better terminal navigation

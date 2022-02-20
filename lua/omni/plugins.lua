@@ -64,6 +64,7 @@ return packer.startup(function(use)
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
+  use "p00f/nvim-ts-rainbow" -- rainbox parens, bracket pair colorizer for neovim
 
   -- snippets
   use "L3MON4D3/LuaSnip" --snippet engine

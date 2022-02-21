@@ -69,6 +69,9 @@ return packer.startup(function(use)
   use "p00f/nvim-ts-rainbow" -- rainbox parens, bracket pair colorizer for neovim
   use "JoosepAlviste/nvim-ts-context-commentstring" -- helps us to comment jsx code
 
+  -- Git
+  use "lewis6991/gitsigns.nvim"
+
   -- snippets
   use "L3MON4D3/LuaSnip" -- snippet engine
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use

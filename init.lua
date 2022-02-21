@@ -9,6 +9,7 @@ vim.defer_fn(function ()
   require("omni.treesitter")
   require("omni.autopairs")
   require("omni.comment")
+  require("omni.gitsigns")
 end, 0)
 
 -- Does this is even reduce startup time?

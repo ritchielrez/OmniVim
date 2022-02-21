@@ -68,6 +68,9 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 keymap("n", "<Leader>ff", ":lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<CR>", opts)
 keymap("n", "<Leader>ft", ":Telescope live_grep<CR>", opts)
 
+-- No highlighting over text
+keymap("n", "<Leader>nh", ":nohl<CR>", opts)
+
 -- Terminal --
 -- Better terminal navigation
 -- keymap("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)

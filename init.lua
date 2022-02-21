@@ -7,6 +7,7 @@ vim.defer_fn(function ()
   require("omni.lsp")
   require("omni.telescope")
   require("omni.treesitter")
+  require("omni.autopairs")
 end, 0)
 
 -- Does this is even reduce startup time?

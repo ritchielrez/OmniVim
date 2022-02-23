@@ -5,3 +5,4 @@ end
 
 require("omni.lsp.lsp-installer")
 require("omni.lsp.handlers").setup()
+require("omni.lsp.null-ls")

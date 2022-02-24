@@ -40,6 +40,8 @@ return packer.startup(function(use)
 	use("numToStr/Comment.nvim") -- Easily comment stuff
 	use("kyazdani42/nvim-web-devicons") -- Dev icons support for neovim
 	use("kyazdani42/nvim-tree.lua") -- File explorer for neovim
+	use("lewis6991/impatient.nvim") -- For faster startup
+	use("lukas-reineke/indent-blankline.nvim") -- Visually show me indentation in blankline
 
 	-- My favourite colorschemes
 	use("sainnhe/gruvbox-material")
@@ -47,21 +49,19 @@ return packer.startup(function(use)
 	-- Completetion and snippets
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp") -- The completion plugin
-	use("hrsh7th/cmp-buffer") -- buffer completions
-	use("hrsh7th/cmp-path") -- path completions
-	use("hrsh7th/cmp-cmdline") -- cmdline completions
-	use("saadparwaiz1/cmp_luasnip") -- snippet completions
+	use("hrsh7th/cmp-buffer") -- Buffer completions
+	use("hrsh7th/cmp-path") -- Path completions
+	use("hrsh7th/cmp-cmdline") -- Cmdline completions
+	use("saadparwaiz1/cmp_luasnip") -- Snippet completions
 	use("hrsh7th/cmp-nvim-lsp") -- Lsp completion
 	use("hrsh7th/cmp-nvim-lua") -- Neovim lua api
 	use("hrsh7th/cmp-nvim-lsp-signature-help") -- Lsp signature help
-	use("jose-elias-alvarez/null-ls.nvim") -- for formatters and linters"
-	use("lewis6991/impatient.nvim") -- for faster startup
-	use("lukas-reineke/indent-blankline.nvim") -- visually show me indentation in blankline
+	use("jose-elias-alvarez/null-ls.nvim") -- For formatters and linters"
 
 	-- LSP
-	use("neovim/nvim-lspconfig") -- enable LSP
-	use("williamboman/nvim-lsp-installer") -- simple to use language server installer
-	use("folke/lua-dev.nvim") -- refine LSP to work better with nvim configs
+	use("neovim/nvim-lspconfig") -- Enable LSP
+	use("williamboman/nvim-lsp-installer") -- Simple to use language server installer
+	use("folke/lua-dev.nvim") -- Refine LSP to work better with nvim configs
 
 	-- Telescope
 	use("nvim-telescope/telescope.nvim")
@@ -71,8 +71,8 @@ return packer.startup(function(use)
 		"nvim-treesitter/nvim-treesitter",
 		run = ":TSUpdate",
 	})
-	use("p00f/nvim-ts-rainbow") -- rainbox parens, bracket pair colorizer for neovim
-	use("JoosepAlviste/nvim-ts-context-commentstring") -- helps us to comment jsx code
+	use("p00f/nvim-ts-rainbow") -- Rainbox parens, bracket pair colorizer for neovim
+	use("JoosepAlviste/nvim-ts-context-commentstring") -- Helps us to comment jsx code
 
 	-- Git
 	use("lewis6991/gitsigns.nvim")

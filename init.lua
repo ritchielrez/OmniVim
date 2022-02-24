@@ -11,8 +11,8 @@ vim.defer_fn(function()
 	require("omni.comment")
 	require("omni.gitsigns")
 	require("omni.nvim-tree")
-  require("omni.impatient")
-  require("omni.indentline")
+	require("omni.impatient")
+	require("omni.indentline")
 end, 0)
 
 -- Does this is even reduce startup time?

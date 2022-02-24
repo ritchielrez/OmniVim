@@ -55,7 +55,8 @@ return packer.startup(function(use)
 	use("hrsh7th/cmp-nvim-lua") -- Neovim lua api
 	use("hrsh7th/cmp-nvim-lsp-signature-help") -- Lsp signature help
 	use("jose-elias-alvarez/null-ls.nvim") -- for formatters and linters"
-	use("lewis6991/impatient.nvim")
+	use("lewis6991/impatient.nvim") -- for faster startup
+	use("lukas-reineke/indent-blankline.nvim") -- visually show me indentation in blankline
 
 	-- LSP
 	use("neovim/nvim-lspconfig") -- enable LSP

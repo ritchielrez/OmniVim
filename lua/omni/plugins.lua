@@ -42,6 +42,7 @@ return packer.startup(function(use)
 	use("kyazdani42/nvim-tree.lua") -- File explorer for neovim
 	use("lewis6991/impatient.nvim") -- For faster startup
 	use("lukas-reineke/indent-blankline.nvim") -- Visually show me indentation in blankline
+	use("goolord/alpha-nvim") -- Dashboard at my startup
 
 	-- My favourite colorschemes
 	use("sainnhe/gruvbox-material")

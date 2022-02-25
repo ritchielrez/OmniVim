@@ -65,12 +65,8 @@ keymap("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 -- Telescope
-keymap(
-	"n",
-	"<Leader>ff",
-	":lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<CR>",
-	opts
-)
+keymap("n", "<Leader>ff", ":lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<CR>", opts)
+keymap("n", "<Leader>fo", ":lua require'telescope.builtin'.oldfiles(require('telescope.themes').get_dropdown({ previewer = false }))<CR>", opts)
 keymap("n", "<Leader>ft", ":Telescope live_grep<CR>", opts)
 
 -- No highlighting over text

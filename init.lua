@@ -11,7 +11,6 @@ require("omni.comment")
 require("omni.gitsigns")
 require("omni.nvim-tree")
 require("omni.impatient")
-require("omni.indentline")
 require("omni.alpha")
 
 -- Does this is even reduce startup time?

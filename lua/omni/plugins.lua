@@ -42,6 +42,8 @@ return packer.startup(function(use)
 	use("kyazdani42/nvim-tree.lua") -- File explorer for neovim
 	use("lewis6991/impatient.nvim") -- For faster startup
 	use("goolord/alpha-nvim") -- Dashboard at my startup
+  -- use("vim-pandoc/vim-pandoc-syntax") -- Better markdown syntax
+  -- Replaced with treesitter
 
 	-- My favourite colorschemes
 	use("sainnhe/gruvbox-material")

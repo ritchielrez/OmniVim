@@ -42,6 +42,7 @@ return packer.startup(function(use)
 	use("kyazdani42/nvim-tree.lua") -- File explorer for neovim
 	use("lewis6991/impatient.nvim") -- For faster startup
 	use("goolord/alpha-nvim") -- Dashboard at my startup
+  use("voldikss/vim-floaterm") -- Integrated terminal like VSCODE
   -- use("vim-pandoc/vim-pandoc-syntax") -- Better markdown syntax
   -- Replaced with treesitter
 
@@ -59,6 +60,7 @@ return packer.startup(function(use)
 	use("hrsh7th/cmp-nvim-lua") -- Neovim lua api
 	use("hrsh7th/cmp-nvim-lsp-signature-help") -- Lsp signature help
 	use("jose-elias-alvarez/null-ls.nvim") -- For formatters and linters"
+  use("iamcco/markdown-preview.nvim")
 
 	-- LSP
 	use("neovim/nvim-lspconfig") -- Enable LSP

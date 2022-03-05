@@ -13,6 +13,7 @@ require("omni.nvim-tree")
 require("omni.impatient")
 require("omni.alpha")
 require("omni.autocommands")
+require("omni.floaterm")
 
 -- Does this is even reduce startup time?
 vim.g.loaded_gzip = 1

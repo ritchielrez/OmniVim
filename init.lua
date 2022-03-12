@@ -14,6 +14,7 @@ require("omni.impatient")
 require("omni.alpha")
 require("omni.autocommands")
 require("omni.floaterm")
+require("omni.lualine")
 
 -- Does this is even reduce startup time?
 vim.g.loaded_gzip = 1

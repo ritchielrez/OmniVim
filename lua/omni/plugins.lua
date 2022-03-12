@@ -45,6 +45,7 @@ return packer.startup(function(use)
   use("voldikss/vim-floaterm") -- Integrated terminal like VSCODE
   -- use("vim-pandoc/vim-pandoc-syntax") -- Better markdown syntax
   -- Replaced with treesitter
+  use("nvim-lualine/lualine.nvim")
 
 	-- My favourite colorschemes
 	use("sainnhe/gruvbox-material")

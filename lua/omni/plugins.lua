@@ -42,14 +42,14 @@ return packer.startup(function(use)
 	use("kyazdani42/nvim-tree.lua") -- File explorer for neovim
 	use("lewis6991/impatient.nvim") -- For faster startup
 	use("goolord/alpha-nvim") -- Dashboard at my startup
-  use("voldikss/vim-floaterm") -- Integrated terminal like VSCODE
-  -- use("vim-pandoc/vim-pandoc-syntax") -- Better markdown syntax
-  -- Replaced with treesitter
-  use("nvim-lualine/lualine.nvim")
-  use({
-    "iamcco/markdown-preview.nvim", 
-    run = ":call mkdp#util#install()"
-  })
+	use("voldikss/vim-floaterm") -- Integrated terminal like VSCODE
+	-- use("vim-pandoc/vim-pandoc-syntax") -- Better markdown syntax
+	-- Replaced with treesitter
+	use("nvim-lualine/lualine.nvim")
+	use({
+		"iamcco/markdown-preview.nvim",
+		run = ":call mkdp#util#install()",
+	})
 
 	-- My favourite colorschemes
 	use("sainnhe/gruvbox-material")

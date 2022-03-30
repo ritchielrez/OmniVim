@@ -60,7 +60,6 @@ return packer.startup(function(use)
 	use("hrsh7th/nvim-cmp") -- The completion plugin
 	use("hrsh7th/cmp-buffer") -- Buffer completions
 	use("hrsh7th/cmp-path") -- Path completions
-	use("hrsh7th/cmp-cmdline") -- Cmdline completions
 	use("saadparwaiz1/cmp_luasnip") -- Snippet completions
 	use("hrsh7th/cmp-nvim-lsp") -- Lsp completion
 	use("hrsh7th/cmp-nvim-lua") -- Neovim lua api

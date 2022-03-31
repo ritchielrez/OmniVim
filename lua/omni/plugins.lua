@@ -50,7 +50,6 @@ return packer.startup(function(use)
 		"iamcco/markdown-preview.nvim",
 		run = ":call mkdp#util#install()",
 	})
-  use("mhinz/vim-sayonara")
 
 	-- My favourite colorschemes
 	use("sainnhe/gruvbox-material")

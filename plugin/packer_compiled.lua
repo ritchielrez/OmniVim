@@ -89,11 +89,6 @@ _G.packer_plugins = {
     path = "/home/ritux/.local/share/nvim/site/pack/packer/start/cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
-  ["cmp-cmdline"] = {
-    loaded = true,
-    path = "/home/ritux/.local/share/nvim/site/pack/packer/start/cmp-cmdline",
-    url = "https://github.com/hrsh7th/cmp-cmdline"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/ritux/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -228,6 +223,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ritux/.local/share/nvim/site/pack/packer/start/vim-floaterm",
     url = "https://github.com/voldikss/vim-floaterm"
+  },
+  ["vim-sayonara"] = {
+    loaded = true,
+    path = "/home/ritux/.local/share/nvim/site/pack/packer/start/vim-sayonara",
+    url = "https://github.com/mhinz/vim-sayonara"
   }
 }
 

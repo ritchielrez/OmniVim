@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/ritux/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["dressing.nvim"] = {
+    loaded = true,
+    path = "/home/ritux/.local/share/nvim/site/pack/packer/start/dressing.nvim",
+    url = "https://github.com/stevearc/dressing.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/ritux/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -223,11 +228,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ritux/.local/share/nvim/site/pack/packer/start/vim-floaterm",
     url = "https://github.com/voldikss/vim-floaterm"
-  },
-  ["vim-sayonara"] = {
-    loaded = true,
-    path = "/home/ritux/.local/share/nvim/site/pack/packer/start/vim-sayonara",
-    url = "https://github.com/mhinz/vim-sayonara"
   }
 }
 

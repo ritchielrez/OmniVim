@@ -45,11 +45,12 @@ return packer.startup(function(use)
 	use("voldikss/vim-floaterm") -- Integrated terminal like VSCODE
 	-- use("vim-pandoc/vim-pandoc-syntax") -- Better markdown syntax
 	-- Replaced with treesitter
-	use("nvim-lualine/lualine.nvim")
+	use("nvim-lualine/lualine.nvim") -- Bottom statusline like VSCODE
 	use({
 		"iamcco/markdown-preview.nvim",
 		run = ":call mkdp#util#install()",
-	})
+	}) -- Markdown preview in my browser
+	use("ahmedkhalf/project.nvim") -- Open up folders from telescope like VSCODE
 
 	-- My favourite colorschemes
 	use("sainnhe/gruvbox-material")
@@ -69,7 +70,7 @@ return packer.startup(function(use)
 	use("neovim/nvim-lspconfig") -- Enable LSP
 	use("williamboman/nvim-lsp-installer") -- Simple to use language server installer
 	use("folke/lua-dev.nvim") -- Refine LSP to work better with nvim configs
-  use("stevearc/dressing.nvim") -- Better visual for LSP workloads
+	use("stevearc/dressing.nvim") -- Better visual for LSP workloads
 
 	-- Telescope
 	use("nvim-telescope/telescope.nvim")

@@ -31,3 +31,6 @@ lualine.setup({
 	tabline = {},
 	extensions = {},
 })
+
+-- One statuline for all splits
+vim.opt.laststatus = 3

@@ -54,6 +54,7 @@ return packer.startup(function(use)
 
 	-- My favourite colorschemes
 	use("sainnhe/gruvbox-material")
+  use("shaunsingh/nord.nvim")
 
 	-- Completetion and snippets
 	-- cmp plugins

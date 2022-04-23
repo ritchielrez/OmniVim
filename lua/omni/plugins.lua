@@ -65,7 +65,8 @@ return packer.startup(function(use)
 	use("hrsh7th/cmp-nvim-lsp") -- Lsp completion
 	use("hrsh7th/cmp-nvim-lua") -- Neovim lua api
 	use("hrsh7th/cmp-nvim-lsp-signature-help") -- Lsp signature help
-	use("jose-elias-alvarez/null-ls.nvim") -- For formatters and linters"
+	use("jose-elias-alvarez/null-ls.nvim") -- For formatters and linters
+  use("filipdutescu/renamer.nvim") -- Popups for renaming lsp signatures
 
 	-- LSP
 	use("neovim/nvim-lspconfig") -- Enable LSP

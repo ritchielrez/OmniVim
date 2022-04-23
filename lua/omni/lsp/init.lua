@@ -6,4 +6,4 @@ end
 require("omni.lsp.lsp-installer")
 require("omni.lsp.handlers").setup()
 require("omni.lsp.null-ls")
-require("omni.lsp.dressing")
+require("omni.lsp.renamer")

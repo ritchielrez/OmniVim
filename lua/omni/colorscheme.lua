@@ -1,6 +1,6 @@
 vim.cmd([[
 try
-  colorscheme nord
+  colorscheme gruvbox-material
   hi Normal guibg=none ctermbg=none
   hi LineNr guibg=none ctermbg=none
   hi Folded guibg=none ctermbg=none

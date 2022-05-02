@@ -25,11 +25,14 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
+-- Don't want to get inside of ex mode
+keymap("n", "Q", "<nop>", opts)
+
 -- Resize with arrows
-keymap("n", "<C-Up>", ":resize -2<CR>", opts)
-keymap("n", "<C-Down>", ":resize +2<CR>", opts)
-keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
-keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
+keymap("n", "<Up>", ":resize -2<CR>", opts)
+keymap("n", "<Down>", ":resize +2<CR>", opts)
+keymap("n", "<Left>", ":vertical resize -2<CR>", opts)
+keymap("n", "<Right>", ":vertical resize +2<CR>", opts)
 
 -- Open up nvim-tree on the left
 keymap("n", "<Leader>e", ":NvimTreeToggle<CR>", opts)

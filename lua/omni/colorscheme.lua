@@ -1,7 +1,8 @@
 vim.cmd([[
 try
-  colorscheme gruvbox-material
+  colorscheme catppuccin
   hi Normal guibg=none ctermbg=none
+  hi NvimTreeNormal guibg=none ctermbg=none
   hi LineNr guibg=none ctermbg=none
   hi Folded guibg=none ctermbg=none
   hi NonText guibg=none ctermbg=none

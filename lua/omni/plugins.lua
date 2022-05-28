@@ -46,6 +46,7 @@ return packer.startup(function(use)
 	-- use("vim-pandoc/vim-pandoc-syntax") -- Better markdown syntax
 	-- Replaced with treesitter
 	-- use("nvim-lualine/lualine.nvim") -- Bottom statusline like VSCODE
+  use("tamton-aquib/staline.nvim") -- Bottom statusline, seems to be more customizable than lualine
 	use({
 		"iamcco/markdown-preview.nvim",
 		run = ":call mkdp#util#install()",
@@ -54,9 +55,11 @@ return packer.startup(function(use)
 
 	-- My favourite colorschemes
 	use("sainnhe/gruvbox-material")
+  use("Mofiqul/adwaita.nvim")
 	use("shaunsingh/nord.nvim")
   use("Mofiqul/dracula.nvim")
   use("catppuccin/nvim")
+  use("LunarVim/onedarker.nvim")
 
 	-- Completetion and snippets
 	-- cmp plugins

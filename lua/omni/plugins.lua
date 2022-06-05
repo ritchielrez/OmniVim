@@ -43,6 +43,7 @@ return packer.startup(function(use)
 	use("lewis6991/impatient.nvim") -- For faster startup
 	use("goolord/alpha-nvim") -- Dashboard at my startup
 	use("voldikss/vim-floaterm") -- Integrated terminal like VSCODE
+  use("norcalli/nvim-colorizer.lua") -- Show the color codes
 	-- use("vim-pandoc/vim-pandoc-syntax") -- Better markdown syntax
 	-- Replaced with treesitter
 	-- use("nvim-lualine/lualine.nvim") -- Bottom statusline like VSCODE

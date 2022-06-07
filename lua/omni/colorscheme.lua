@@ -2,7 +2,9 @@ vim.cmd([[
 try
   let g:nord_disable_background = v:true
   let g:nord_italic = v:false
-  colorscheme nord
+
+  colorscheme gruvbox-material
+
   hi Normal guibg=none ctermbg=none
   hi NvimTreeNormal guibg=none ctermbg=none
   hi LineNr guibg=none ctermbg=none

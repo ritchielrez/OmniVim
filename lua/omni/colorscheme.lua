@@ -3,7 +3,7 @@ try
   let g:nord_disable_background = v:true
   let g:nord_italic = v:false
 
-  colorscheme gruvbox-material
+  colorscheme nord
 
   hi Normal guibg=none ctermbg=none
   hi NvimTreeNormal guibg=none ctermbg=none

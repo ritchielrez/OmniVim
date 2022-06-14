@@ -35,6 +35,7 @@ project.setup({
 		"go.mod",
 		"main.py",
 		"Dockerfile",
+    "Cargo.toml",
 	},
 
 	---@ Show hidden files in telescope when searching for files in a project

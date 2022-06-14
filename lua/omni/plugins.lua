@@ -60,7 +60,7 @@ return packer.startup(function(use)
 	use("shaunsingh/nord.nvim")
   use("Mofiqul/dracula.nvim")
   use("catppuccin/nvim")
-  use("LunarVim/onedarker.nvim")
+  use("LunarVim/Colorschemes")
 
 	-- Completetion and snippets
 	-- cmp plugins

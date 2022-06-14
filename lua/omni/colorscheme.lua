@@ -3,6 +3,8 @@ try
   let g:nord_disable_background = v:true
   let g:nord_italic = v:false
 
+  let g:transparent_background = v:true 
+
   colorscheme nord
 
   hi Normal guibg=none ctermbg=none

@@ -36,6 +36,7 @@ project.setup({
 		"main.py",
 		"Dockerfile",
     "Cargo.toml",
+    "src"
 	},
 
 	---@ Show hidden files in telescope when searching for files in a project

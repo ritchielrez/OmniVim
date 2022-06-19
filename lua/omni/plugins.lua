@@ -39,6 +39,13 @@ return packer.startup(function(use)
 	use("windwp/nvim-autopairs") -- Autopairs, integrates with both cmp and treesitter
 	use("numToStr/Comment.nvim") -- Easily comment stuff
 	use("kyazdani42/nvim-web-devicons") -- Dev icons support for neovim
+
+  -- New icons font called nonicons, official plugin support for neovim
+  -- use {
+  --   'yamatsum/nvim-nonicons',
+  --    requires = {'kyazdani42/nvim-web-devicons'}
+  -- }
+
 	use("kyazdani42/nvim-tree.lua") -- File explorer for neovim
 	use("lewis6991/impatient.nvim") -- For faster startup
 	use("goolord/alpha-nvim") -- Dashboard at my startup

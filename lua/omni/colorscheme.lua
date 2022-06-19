@@ -5,7 +5,7 @@ try
 
   let g:transparent_background = v:true 
 
-  colorscheme nord
+  colorscheme gruvbox-material
 
   hi Normal guibg=none ctermbg=none
   hi NvimTreeNormal guibg=none ctermbg=none

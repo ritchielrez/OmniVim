@@ -1,3 +1,6 @@
+vim.g.tokyodark_enable_italic = false
+vim.g.tokyodark_enable_italic_comment = false
+
 vim.cmd([[
 try
   let g:nord_disable_background = v:true
@@ -5,7 +8,7 @@ try
 
   let g:transparent_background = v:true 
 
-  colorscheme gruvbox-material
+  colorscheme tokyodark
 
   hi Normal guibg=none ctermbg=none
   hi NvimTreeNormal guibg=none ctermbg=none

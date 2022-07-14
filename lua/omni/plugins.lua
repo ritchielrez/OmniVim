@@ -1,5 +1,4 @@
 local fn = vim.fn
-
 -- Automatically install packer
 local install_path = fn.stdpath("data") .. "/site/pack/packer/start/packer.nvim"
 if fn.empty(fn.glob(install_path)) > 0 then
@@ -63,6 +62,7 @@ return packer.startup(function(use)
 
 	-- My favourite colorschemes
 	use("sainnhe/gruvbox-material")
+  use("tiagovla/tokyodark.nvim")
   use("Mofiqul/adwaita.nvim")
 	use("shaunsingh/nord.nvim")
   use("Mofiqul/dracula.nvim")

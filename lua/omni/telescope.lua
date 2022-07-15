@@ -8,12 +8,16 @@ local actions = require("telescope.actions")
 telescope.setup({
 	defaults = {
 
-		prompt_prefix = " ",
-		selection_caret = " ",
-		path_display = { "smart" },
+		prompt_prefix = " ",
+		selection_caret = " ",
+		path_display = { "truncate" },
+    border = {},
+		borderchars = { "", "", "", "", "", "", "", "" },
+    file_ignore_patterns = { ".git" },
 
 		mappings = {
 			i = {
+        ["<Esc>"] = actions.close,
 				["<C-n>"] = actions.cycle_history_next,
 				["<C-p>"] = actions.cycle_history_prev,
 
